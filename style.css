@@ -1,0 +1,84 @@
+/* NAVBAR STYLING */
+body{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    color: black;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+nav .brand-logo, nav a{
+    color: black;
+}
+
+.brand-logo img{
+    margin: 10px;
+    width: 150px; 
+}
+/* /NAVBAR STYLING */
+
+
+/* HERO STYLING */
+.main{
+    z-index: -1;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+} 
+
+.banner {
+    width:500px;
+    margin: auto;
+    padding-top: 50px;
+
+}
+.banner img{
+    width: inherit;
+}
+
+.banner h3{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 30px;
+    color: black;
+}
+.banner p{
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.banner .date{
+    text-align: right;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-right: 10px;
+    color: black;
+    margin-top: 0px;
+}
+.banner a{
+    font-size: 25px;
+    display: block;
+    color: rgb(2, 5, 39);
+    border: 2px solid rgb(2, 5, 39);
+    padding: 5px;
+    width: 160px;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+.banner a:hover{
+    background-color: white;
+    border: 2px solid white;
+}
+/* /HERO STYLING */
+
