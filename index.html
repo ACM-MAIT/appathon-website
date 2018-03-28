@@ -1,66 +1,1384 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
+
+  <!doctype html>
+  <html lang="en">
+  
+<!-- Mirrored from c2c.acmvit.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Mar 2018 15:33:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Appathon | ACM MAIT</title>
+    <!--SEO-->
+    <!-- <meta name="description"    content="Code2Create is a Hackathon organised by ACM VIT. It is all about designing, building and creating. It is a place where graphic designers, the software developers, app developers and web developers collaborate intensively on software projects."> -->
+    <meta name="keywords" content="Appathon, MAIT ACM, Online Hackathon">
+    <meta name="author" content="ACM MAIT">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='-1'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <meta name="theme-color" content="#262a2d">
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Appathon"/>
+    <meta property="og:url" content="mait.acm.org"/>
+    <meta property="og:title" content="Appathon"/>
+    <meta property="og:description"
+    content="Code2Create is a Hackathon organised by ACM VIT. It is all about designing, building and creating. It is a place where graphic designers, the software developers, app developers and web developers collaborate intensively on software projects."/>
+    <meta property="og:image" content="../code2create.herokuapp.com/images/c_only.png"/>
+    <meta itemprop="name" content="Appathon"/>
+    <!-- <meta itemprop="description"    content="Code2Create is a Hackathon organised by ACM VIT. It is all about designing, building and creating. It is a place where graphic designers, the software developers, app developers and web developers collaborate intensively on software projects."/> -->
+    <meta itemprop="image" content="images/c_only.png"/>
+    <meta name="twitter:card" content="summary"/>
+    <!-- <meta name="twitter:site" content="@acmmait"/> -->
+    <meta name="twitter:title" content="Appathon"/>
+    <!-- <meta name="twitter:description"    content="Code2Create is a Hackathon organised by ACM VIT. It is all about designing, building and creating. It is a place where graphic designers, the software developers, app developers and web developers collaborate intensively on software projects."/> -->
+    <meta name="twitter:image" content="images/c_only.png"/>
+    <link rel="apple-touch-icon-precomposed" href="images/c_only.png"/>
+    <link rel="icon" type="image/png" href="images/c_only.png"/>
+    <link rel="apple-touch-icon" href="images/c_only.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!--END SEO-->
+    <link rel="stylesheet" type="text/css" href="styles/preloader_cubeb0ba.css?11111">
+    <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
+    <link href="styles/materializeicons698d.css?111" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/animate.css">
+    <link rel="stylesheet" type="text/css" href="styles/sweetalert.css">
+    <link rel="stylesheet" href="styles/mainfb2f.css?1204">
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" type="text/javascript"></script>
 
-  <body>
-   <div class="navbar-fixed">   
-    <nav class="navbar">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo"><img src="images/logo.png" alt="Logo"></a>
-            <a href="#" data-target="sidenav" class="sidenav-trigger show-on-large right"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
-   </div> 
+        <script>
+      new WOW().init();
+    </script>
+    <script type="text/javascript">
+    function encode(urrl){
+      var newurl="";
+      for(var i=0;i<urrl.length;i++){
+        var c=urrl[i];
+        if(c=='index.html')
+          newurl+="%2F";
+        else
+          newurl+=c;
+      }
+      return newurl;
+    }
 
-    <ul class="sidenav" id="sidenav">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-    </ul>
-    <div class="banner">
-            <h3>ACM MAIT</h3>
-            <p>presents</p>
-            <img src="images/logo.png" alt="APPATHON LOGO">
-            <p class="date">April 6,2018</p>
+  </script>
+</head>
+<body>
+   <!--  <div id="loader-wrapper">
+      <div id="loader"></div>
 
-            <a href="#" class="register">REGISTER  <i class="material-icons">send</i></a>
-        </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
 
-    <div class="main">
-        
-        <div id="curves" class="hero"></div>
+    </div> -->
+    <div class="css-preloader-wrapper">
+      <div class="cssload-thecube">
+        <div class="cssload-cube cssload-c1"></div>
+        <div class="cssload-cube cssload-c2"></div>
+        <div class="cssload-cube cssload-c4"></div>
+        <div class="cssload-cube cssload-c3"></div>
+      </div>
     </div>
+        <link rel="stylesheet" type="text/css" href="styles/hamburger.min.css">
+    <link rel="stylesheet" href="styles/home_slidera0a0.css?122">
+    <link rel="stylesheet" type="text/css" href="styles/team6512.css?11">
+    <link rel="stylesheet" type="text/css" href="styles/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="styles/owl.theme.green.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/homeb24d.css?1220">
+    <link rel="stylesheet" href="styles/herobanner.css">
+    <style>
+      .error {
+        border: solid 1px red;
+        color: red;
+        padding: 10px;
+      }
+      .success {
+        border: solid 1px green;
+        color: green;
+        padding: 10px;
+      }
+      .reg-closed{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 10px;
+        border: dashed 1px #fff;
+        color: #1eb76e;
+      }
+      body {
+        background:url('images/bg3.svg');
+      }
+    </style>
+
+
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+  <![endif]-->
+  
+  <div class="hero-div-baap" id="home">
+    <div class="hero-div banner">
+      <!-- <ul class="cb-slideshow">
+        <li><span>Image 01</span></li>
+        <li><span>Image 02</span></li>
+        <li><span>Image 03</span></li>
+        <li><span>Image 04</span></li>
+        <li><span>Image 05</span></li>
+        <li><span>Image 06</span></li>
+      </ul> -->
+      <div class=" cb-slideshow">
+          <div id="curves"></div>
+        </div>
+      <div class="container-fluidd hero-content" style="margin-top: -20px;">
+        <div class="row center">
+          <br><br>
+          <h3 class="moto center hide-on-small-only">
+            ACM MAIT
+          </h3>
+          
+          <h5 class="moto center hide-on-small-only">
+            presents
+          </h5>
+        </div>
+        <div class="row center">
+          <br>
+          <img src="images/logo.png" class="logo-c2c wow fadeInDown" data-wow-delay="0.5s">
+        </div>
+        <div class="row center ">
+          <h5 class="moto center hide-on-small-only">
+            <i class="fa fa-calendar smooth-transition hero-fa" aria-hidden="true"></i>
+            April 4-6, 2018
+            <!-- <i class="fa fa-map-marker smooth-transition hero-fa" aria-hidden="true"></i> VIT University -->
+          </h5>
+          <h5 class="moto center hide-on-med-and-up">
+            ACM-MAIT
+            <br>
+            <i class="fa fa-calendar smooth-transition hero-fa" aria-hidden="true"></i>
+            April 4-6, 2018;
+            <!-- <i class="fa fa-map-marker smooth-transition hero-fa" aria-hidden="true"></i> VIT University -->
+          </h5>
+        </div>
+        <!-- <h4 class="center white-text">Create | Learn | Innovate</h4> -->
+        <!-- <div class="row type-row">
+          <div class="container">
+            <div class="type-div center" id="type1">
+                 <span class="type-no" id="type_no"></span>
+              <span class="type-text" id="type_text"></span>
+            </div>
+
+          </div>
+        </div> -->
+        <br><br>
+        <div class="row">
+          <div class="center" style="border-style: none;">
+            <div class="hide-on-small-only banner">
+              <!-- <h5 class="center"><a href="http://skll.in/code2create18" style="color: rgb(60,190,136);">REGISTER NOW</a></h5> -->
+              <!-- <a href="#" class="myButton wow fadeInDown" style = "background-color:rgba(20,157,100,1); color: white;">REGISTRATIONS ARE CLOSED</a> -->
+              <a href="#" class="register wow fadeInDown">REGISTER  <i class="material-icons">send</i></a>
+            </div>
+            <div class="hide-on-med-and-up banner">
+              <!-- <h6 class="center"><a href="/comingSoon" style="color: rgb(135,205,173);">KNOW ABOUT REGISTRATION</a></h6> -->
+              <!-- <a href="http://skll.in/code2create18" class="myButtonSM wow fadeInDown" style = "background-color:rgba(20,157,100,1); color: white;">REGISTER NOW</a> -->
+              <a href="#" class="register wow fadeInDown">REGISTER  <i class="material-icons">send</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row hide register-but-div center">
+          <!--   <button class="hero-register-but waves-effect smooth-transition disable disabled" disabled style="margin:10px;">Register</button> -->
+          <a href="login.html">
+
+            <button class="hero-register-but waves-effect smooth-transition" style="margin:10px;">Login</button>
+          </a>
+        </div>
+        <br>
+      </div>
+    </div>
+    
+  </div>
+  <div class="nav-wrap">
+    <div class="nav-placeholder">
+    </div>
+    <nav class="smooth-transition navelem">
+      <div class="nav-wrapper">
+        <a class="brand-logo" onclick="$('html, body').animate({scrollTop: $('#home').offset().top}, 1000);"><img src="images/logo.png" class="responsive-img"></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="navlink a-home" onclick="$('html, body').animate({scrollTop: $('#home').offset().top}, 1000);">Home</a>
+          </li>
+          <li><a class="navlink a-about"
+           onclick="$('html, body').animate({scrollTop: $('#about').offset().top-60}, 1000);">About</a>
+         </li>
+         <li><a class="navlink a-tracks"
+          onclick="$('html, body').animate({scrollTop: $('#tracks').offset().top-60}, 1000);">Tracks</a>
+        </li>
+        <li><a class="navlink a-timeline"
+          onclick="$('html, body').animate({scrollTop: $('#timeline').offset().top-60}, 1000);">Timeline</a>
+        </li>
+         <li><a class="navlink a-faqs"
+           onclick="$('html, body').animate({scrollTop: $('#faqs').offset().top-60}, 1000);">FAQs</a>
+         </li>
+         <li><a class="navlink a-sponsors"
+           onclick="$('html, body').animate({scrollTop: $('#sponsors').offset().top-60}, 1000);">Sponsors</a>
+         </li>
+         <li><a class="navlink a-organisers"
+           onclick="$('html, body').animate({scrollTop: $('#organisers').offset().top-60}, 1000);">Judges</a></li>
+           <li><a class="navlink a-contactus"
+             onclick="$('html, body').animate({scrollTop: $('#contactus').offset().top-60}, 1000);">Contact
+             Us</a></li>
+             <!-- <li><a class="navlink btn waves-effect waves-light nav-reg-but" href="/login">Login</a></li> -->
+           </ul>
+           <ul class="side-nav" id="mobile-demo">
+            <li><a class="navlink a-home" onclick="$('html, body').animate({scrollTop: $('#home').offset().top}, 1000);">Home</a>
+            </li>
+            <li><a class="navlink a-about"
+             onclick="$('html, body').animate({scrollTop: $('#about').offset().top-60}, 1000);">About</a>
+           </li>
+           <li><a class="navlink a-tracks"
+            onclick="$('html, body').animate({scrollTop: $('#tracks').offset().top-60}, 1000);">Tracks</a>
+          </li>
+          <li><a class="navlink a-timeline"
+            onclick="$('html, body').animate({scrollTop: $('#timeline').offset().top-60}, 1000);">Timeline</a>
+          </li>
+           <li><a class="navlink a-faqs"
+             onclick="$('html, body').animate({scrollTop: $('#faqs').offset().top-60}, 1000);">FAQs</a>
+           </li>
+           <li><a class="navlink a-sponsors"
+             onclick="$('html, body').animate({scrollTop: $('#sponsors').offset().top-60}, 1000);">Sponsors</a>
+           </li>
+           <li><a class="navlink a-organisers"
+             onclick="$('html, body').animate({scrollTop: $('#organisers').offset().top-60}, 1000);">Judges</a></li>
+             <li><a class="navlink a-contactus"
+               onclick="$('html, body').animate({scrollTop: $('#contactus').offset().top-60}, 1000);">Contact
+               Us</a></li>
+               <!--      <li><a class="navlink btn waves-effect waves-light nav-reg-but" href="/register">Register</a></li> -->
+               <!-- <li><a class="navlink btn waves-effect waves-light nav-reg-but" href="/login">Login</a></li> -->
+             </ul>
+           </div>
+         </nav>
+       </div>
+
+       <div class="about-wrap" id="about">
+        <div class="container container-little-big">
+          <div class="row">
+            <div class="col s12 center wow fadeInUp">
+              <h3 class="heading center">About</h3>
+            </div>
+            <div class="col s12">
+              <br>
+              <br><br>
+            </div>
+            <div class="about-box smooth-transition about-c2c col m5 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="center">
+                <h4 class="heading center">Code2Create</h4>
+              </div>
+              <p class="center" style="text-align: justify;" id="about-box-c2c">A thrilling tech sprint awaited by all techies, Code2Create saw an explosion of technicality. Code2Create is all about designing, building and creating; a place where graphic designers, software developers, app developers and web developers collaborate intensively on projects. It is an outburst of technology, a tech marathon – it is Code2Create. Code2Create'17 saw more than 300 participants. The judges were renowned experts in their respective fields.
+              </p>
+            </div>
+            <div class="col s12 hide-on-med-and-up">
+              <br>
+            </div>
+            <div class="about-box smooth-transition about-acm col m5 offset-m2 wow fadeInUp" data-wow-delay="0.5s">
+              <div class="center">
+                <h4 class="heading center">ACM MAIT</h4>
+              </div>
+              <p class="" style="text-align: justify;" id="about-box-acm">Right from its inception in 2009, the ACM VIT Student Chapter has been organising and conducting succesful technical and professional development events. It hosted Compute 2013, the 6th ACM India Computing Convention from 22nd to 24th August, 2013, as well as the first All India ACM Chapters Meet on 24th August, 2013. It has credentials in web/mobile applications development and machine learning. The websites "All About VIT" and "VIT Cab Share" are some of the treasured creations of its core members. Technology is its cause and education is its objective.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div id="tracks">
+        <div class="container container-little-big">
+          <div class="row">
+            <div class="col s12 center wow fadeInUp">
+              <h3 class="heading center">Tracks</h3>
+            </div>
+            <div class="col s12">
+              <br>
+              <br><br>
+            </div>
+            <div class="col-sm-12">
+              <div class="center">
+                <h5 style="color:white">Coming Soon...</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div id="timeline">
+          <div class="container container-little-big">
+            <div class="row">
+              <div class="col s12 center wow fadeInUp">
+                <h3 class="heading center">Timeline</h3>
+              </div>
+
+              <div class="col s12  center">
+                  <section class="cd-horizontal-timeline">
+                      <div class="timeline">
+                        <div class="events-wrapper">
+                          <div class="events">
+                            <ol>
+                              <li><a href="#0" data-date="29/03/2018" class="selected">29 March</a></li>
+                              <li><a href="#0" data-date="04/04/2018">4 April</a></li>
+                              <li><a href="#0" data-date="05/04/2018">5 April</a></li>
+                              <li><a href="#0" data-date="06/04/2018">6 April</a></li>
+                            </ol>
+                    
+                            <span class="filling-line" aria-hidden="true"></span>
+                          </div> <!-- .events -->
+                        </div> <!-- .events-wrapper -->
+                          
+                        <ul class="cd-timeline-navigation">
+                          <li><a href="#0" class="prev inactive">Prev</a></li>
+                          <li><a href="#0" class="next">Next</a></li> 
+                         </ul> 
+                      </div> <!-- .timeline -->
+                    
+                      <div class="events-content">
+                        <ol>
+                          <li class="selected" data-date="29/03/2018">
+                            <h2>Horizontal Timeline</h2>
+                            <em>January 16th, 2014</em>
+                            <p>	
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                            </p>
+                          </li>
+                    
+                          <li data-date="04/04/2018">
+                            <h2>Event title here</h2>
+                            <em>February 28th, 2014</em>
+                            <p>	
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                            </p>
+                          </li>
+                    
+                          <li data-date="05/04/2018">
+                            <h2>Event title here</h2>
+                            <em>March 20th, 2014</em>
+                            <p>	
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                            </p>
+                          </li>
+                    
+                          <li data-date="06/04/2018">
+                            <h2>Event title here</h2>
+                            <em>May 20th, 2014</em>
+                            <p>	
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                            </p>
+                          </li>
+                    
+                        </ol>
+                      </div> <!-- .events-content -->
+                    </section>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+      <br><br>
+      <div class="faqs-wrap" id="faqs">
+        <div class="container-little-big container">
+          <div class="row">
+            <div class="col s12 center wow fadeInDown">
+              <h3 class="heading white-text center">FAQs</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6 center">
+              <div class="faqs-div-wrap wow fadeInUp" id="faqs-div-wrap-1">
+                <div class="faq-wrapper" data-id="1">
+                  <div class="faq-div left-align smooth-transition">
+                    <div class="faq-question">
+                      Who all can register?
+                    </div>
+                    <button class="hamburger hamburger--slider right" type="button">
+                      <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                      </span>
+                    </button>
+                  </div>
+                  <div class="faq-details left-align white-text">
+                    <div class="faq-details-inner">
+                      <p>
+                        Any and all students from all over the country can register. We welcome you all!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq-wrapper" data-id="2">
+                  <div class="faq-div left-align smooth-transition">
+                    <div class="faq-question">
+                      What are the registration fees?
+                    </div>
+                    <button class="hamburger hamburger--slider right" type="button">
+                      <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                      </span>
+                    </button>
+                  </div>
+                  <div class="faq-details left-align white-text">
+                    <div class="faq-details-inner">
+                      <p>
+                        Nothing, it’s absolutely free!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq-wrapper" data-id="3">
+                  <div class="faq-div left-align smooth-transition">
+                    <div class="faq-question">
+                     What kind of hackathon is this?
+                   </div>
+                   <button class="hamburger hamburger--slider right" type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>
+                </div>
+                <div class="faq-details left-align white-text">
+                  <div class="faq-details-inner">
+                    <p>
+                     This is a software hackathon. Although participants may use hardware if they wish to, they will be judged on their software implementation.
+                   </p>
+                 </div>
+               </div>
+             </div>
+             <div class="faq-wrapper" data-id="4">
+              <div class="faq-div left-align smooth-transition">
+                <div class="faq-question">
+                 How many people can I have on my team?
+               </div>
+               <button class="hamburger hamburger--slider right" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </button>
+            </div>
+            <div class="faq-details left-align white-text">
+              <div class="faq-details-inner">
+                <p>
+                  You can have 1 to 4 people per team. You should either create your own team or accept invitations from other team admins.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="faq-wrapper" data-id="5">
+            <div class="faq-div left-align smooth-transition">
+              <div class="faq-question">
+               What tracks does this hack include?
+             </div>
+             <button class="hamburger hamburger--slider right" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+          <div class="faq-details left-align white-text">
+            <div class="faq-details-inner">
+              <p>
+               For now we introduce the following tracks:
+               <br>
+               -FinTech
+               <br>
+               -Smart Cities
+               <br>
+               -Education
+               <br>
+               -Health Care
+               <br>
+               -Space
+             </p>
+           </div>
+         </div>
+       </div>
+       <div class="faq-wrapper" data-id="6">
+        <div class="faq-div left-align smooth-transition">
+          <div class="faq-question">
+           How do I choose my track?
+         </div>
+         <button class="hamburger hamburger--slider right" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+      <div class="faq-details left-align white-text">
+        <div class="faq-details-inner">
+          <p>
+           When you <a href="https://skillenza.com/challenge/code2create2018" target="_blank">register</a> we will ask you to submit your idea proposal and on the basis of your idea we will have shortlisting.
+         </p>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+<div class="col s12 m6 center">
+  <div class="faqs-div-wrap wow fadeInUp" id="faqs-div-wrap-2">
+   <div class="faq-wrapper" data-id="7">
+    <div class="faq-div left-align smooth-transition">
+      <div class="faq-question">
+       How do I qualify for the pitching round?
+     </div>
+     <button class="hamburger hamburger--slider right" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </div>
+  <div class="faq-details left-align white-text">
+    <div class="faq-details-inner">
+      <p>
+       There will be a technical inspection on Day 2 during the hack. After the inspection, we will shortlist 120 participants. These 120 participants will get a chance to present their hack in the expo for evaluation.
+     </p>
+   </div>
+ </div>
+</div>
+<div class="faq-wrapper" data-id="8">
+  <div class="faq-div left-align smooth-transition">
+    <div class="faq-question">
+     Is it only about technology?
+   </div>
+   <button class="hamburger hamburger--slider right" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+</div>
+<div class="faq-details left-align white-text">
+  <div class="faq-details-inner">
+   <p> We are tech enthusiasts but we believe 'All work and no play makes Jack a dull boy'.&nbsp 
+   We have numerous fun activities planned for you.
+   </p>
+ </div>
+</div>
+</div>
+<div class="faq-wrapper" data-id="9">
+  <div class="faq-div left-align smooth-transition">
+    <div class="faq-question">
+     Who will be on the Judging panel?
+   </div>
+   <button class="hamburger hamburger--slider right" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+</div>
+<div class="faq-details left-align white-text">
+  <div class="faq-details-inner">
+   <p> We have experts from IBM, ACM India and Startup ecosphere to look into the details of your amazing projects.
+   </p>
+ </div>
+</div>
+</div>
+<div class="faq-wrapper" data-id="10">
+  <div class="faq-div left-align smooth-transition">
+    <div class="faq-question">
+      What all can I win?
+    </div>
+    <button class="hamburger hamburger--slider right" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </div>
+  <div class="faq-details left-align white-text">
+    <div class="faq-details-inner">
+     <p>Cash prizes, original licenses for various softwares, cloud credits, exclusive goodies and swags for winners. But we have something special back in store for every participant.
+     </p>
+   </div>
+ </div>
+</div>
+<div class="faq-wrapper" data-id="11">
+  <div class="faq-div left-align smooth-transition">
+    <div class="faq-question">
+     What if I get hungry or need internet connection?
+   </div>
+   <button class="hamburger hamburger--slider right" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+</div>
+<div class="faq-details left-align white-text">
+  <div class="faq-details-inner">
+   <p> We’ll provide you with delicious food at regular intervals (breakfast, lunch, dinner and snacks) along with beverages. Also, you will be provided with free access to our beloved internet facility, VOLSBB.
+   </p>
+ </div>
+</div>
+</div>
+<div class="faq-wrapper" data-id="12">
+  <div class="faq-div left-align smooth-transition">
+    <div class="faq-question">
+     What about accommodation for externals?
+   </div>
+   <button class="hamburger hamburger--slider right" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+</div>
+<div class="faq-details left-align white-text">
+  <div class="faq-details-inner">
+   <p> We will not be providing any accomodation for external students. We expect our participants to stay at the venue for the full hack.
+   </p>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br><br>
+<div class="sponsors-wrap" id="sponsors">
+  <div class="container">
+    <div class="col s1 center wow fadeInUp">
+      <h4 class="heading white-text">Sponsors</h4>
+    </div>
+    <div class="col s12">
+      <br>
+    </div>
+    <!-- <div class="row sponPad fadeInUp">
+
+        <div class="col m4 s12 center">
+          <img src="/images/sponsors/transits.png" class="sponsors-pic center wow fadeInDown responsive-img ">
+        </div>
+        <div class="col m4 s12 center">
+          <br><br>
+          <img src="/images/sponsors/tricentis.png" class="sponsors-pic  center wow fadeInDown responsive-img" style="margin-top:5px;">
+        </div>
+        <div class="col m4 s12 center">
+          <img src="/images/sponsors/paypal.png" class="sponsors-pic wow center fadeInDown responsive-img ">
+        </div>
+    </div>
+    <div class="row sponPad fadeInUp">
+
+        <div class="col m4 s12 center">
+            <img src="/images/sponsors/union.png" class="sponsors-pic wow center fadeInDown responsive-img ">
+          </div>
+          <div class="col m4 s12 center">
+            <br><br>
+            <img src="/images/sponsors/oil_t.png" class="sponsors-pic  wow center fadeInDown responsive-img" style="margin-top:5px;">
+          </div>
+          <div class="col m4 s12 center">
+            <img src="/images/sponsors/dakshinamurti.png" class="sponsors-pic wow center fadeInDown responsive-img ">
+          </div>
+    </div> -->
+  <!-- <div class="row sponPad fadeInUp">
+    <div class="col m4 s12 center">
+     <img src="/images/sponsors/digitalocean.png" class="sponsors-pic wow center fadeInDown responsive-img " >
+   </div>
+   <div class="col m4 s12 center">
+    <img src="/images/sponsors/github.png" class="sponsors-pic wow center fadeInDown responsive-img ">
+  </div>
+  <div class="col m4 s12 center">
+   <img src="/images/sponsors/aisec_tt.png" class="sponsors-pic wow center fadeInDown responsive-img ">
+ </div>
+</div> -->
+  <!-- <div class="row sponPad fadeInUp ">
+    <div class="col m4 s12 center">
+    <img src="/images/sponsors/winuall.png" class="sponsors-pic wow center fadeInDown responsive-img " >
+  </div>
+  <div class="col m4 s12 center">
+    <img src="/images/sponsors/vicara.png" class="sponsors-pic wow center fadeInDown responsive-img ">
+  </div>
+  <div class="col m4 s12 center">
+  <img src="/images/sponsors/devcircle.png" class="sponsors-pic wow center fadeInDown responsive-img ">
+  </div>
+  </div> -->
+  <!-- <div class="row sponPad fadeInUp">
+      <div class="col m4 s12 center">
+      <img src="/images/sponsors/gamesa.png" class="sponsors-pic wow center fadeInDown responsive-img " >
+    </div>
+    <div class="col m4 s12 center" >
+      <img src="/images/sponsors/bakers.png" class="sponsors-pic wow center  fadeInDown responsive-img ">
+    </div>
+    <div class="col m4 s12 center">
+    <img src="/images/sponsors/digitalhar.png" class="sponsors-pic wow center fadeInDown responsive-img ">
+    </div>
+    </div> -->
+
+
+    <div class="row sponPad fadeInUp">
+      <div class="col m4 s12 center" style="margin-top: 68px;">
+      <img src="images/sponsors/npm.png" class="sponsors-pic wow center fadeInDown responsive-img " style="height: 50px; width:auto;" >
+    </div>
+    <div class="col m4 s12 center" >
+      <img src="images/sponsors/jetbrains.png" class="sponsors-pic wow center  fadeInDown responsive-img " style="height: 150px; width:auto;">
+    </div>
+    <div class="col m4 s12 center">
+    <img src="images/sponsors/git.png" class="sponsors-pic wow center fadeInDown responsive-img " style="height: 150px; width:auto;">
+    </div>
+    </div>
+
+
+    <div class="row sponPad fadeInUp ">
+      <div class="col m4 s12 center">
+      <img src="images/sponsors/ibm.png" class="sponsors-pic wow center fadeInDown responsive-img " style="height: 60px; width:auto;"  >
+    </div>
+    <div class="col m4 s12 center">
+      <img src="images/sponsors/wolfram.png" class="sponsors-pic wow center fadeInDown responsive-img ">
+    </div>
+    <div class="col m4 s12 center">
+    <img src="images/sponsors/travis.png" class="sponsors-pic wow center fadeInDown responsive-img ">
+    </div>
+    </div>
+
+
+
+    <div class="row sponPad fadeInUp">
+      <div class="col m4 s12 center">
+      <img src="images/sponsors/iconscout.jpg" class="sponsors-pic wow center fadeInDown responsive-img " style="height: 100px; width:auto;">
+    </div>
+    <div class="col m4 s12 center" >
+      <img src="images/sponsors/festsinfologo.png" class="sponsors-pic wow center  fadeInDown responsive-img ">
+    </div>
+    <div class="col m4 s12 center" style="margin-top: 32px;">
+    <img src="images/sponsors/cblogo.png" class="sponsors-pic wow center fadeInDown responsive-img ">
+    </div>
+    </div>
+
+
+
+</div>
+</div>
+<br>
+<div class="row hide">
+  <div class="col s12 center wow fadeInLeft">
+    <h5 class="center display-inline-block white-text">Interested in sponsoring us? Have a look at our &nbsp;</h5>
+    <a href="codetocreate.pdf" target="_blank">
+      <button class="ghost-btn">Sponsorship Brochure
+        <span class="coming-arrow">&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </span>
+      </button>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+  <br><br>
+  <div class="organisers-wrap" id="organisers">
+    <div class="container container-little-big">
+      <!-- <div class="col s12 center wow fadeInUp">
+        <h4 class="heading white-text">Organisers'18</h4>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col s12 wow fadeInUp">
+          <div class="col m4 center">
+            <img src="images/acmlogo.png" class="responsive-img" style="padding-top: 50px;">
+          </div>
+          <div class="col m4 center">
+            <h4 class="center in-association-text">In Association with</h4>
+          </div>
+          <div class="col m4 center">
+            <br class="hide-on-small-only">
+            <img src="images/site.png" class="responsive-img site-logo" style="padding-top: 50px;">
+          </div>
+        </div>
+      </div>  -->
+    <!-- <div class="center-align wow fadeInUp">
+        <img src="/images/vit.png" class="responsive-img" style="height: 150px; width: auto;">
+    </div> -->
+    <div class="row faculty-div">
+      <div class="col s12 center wow fadeInDown">
+        <h4 class="center white-text heading">Judges</h4>
+        <br><br>
+      </div>
+      <div class="col s12 m3 offset-m2 wow fadeInUp" style="padding-top:5px;">
+        <div class="member-card hrv-member-card">
+          <img src="images/people/dean_site.png" class="member-card-img smooth-transition-fast">
+          <div class="member-info smooth-transition-fast">
+            <div class="member-name-div">
+              <h5 class="member-name">Dr. Aswani Kumar Cherukuri</h5>
+            </div>
+            <h5 class="member-position">Dean<br>School of Information Technology & Engineering</h5>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col s0 m1">
+        &nbsp;
+      </div> -->
+      <div class="col s12 m3 hrv-col wow fadeInUp" style="padding-top:5px;">
+        <div class="member-card hrv-member-card">
+          <img src="images/people/hrv.png" class="member-card-img smooth-transition-fast">
+          <div class="member-info smooth-transition-fast">
+           <div class="member-name-div">
+            <h5 class="member-name">Prof. H.R. Vishwakarma</h5>
+          </div>
+          <h5 class="member-position">Faculty Coordinator<br> ACM VIT Student Chapter</h5>
+        </div>
+      </div>
+     </div>
+    
+    <div class="col s12 m3 hrv-col wow fadeInUp" style="padding-top:5px;">
+        <div class="member-card hrv-member-card">
+          <img src="images/people/divya.jpg" class="member-card-img smooth-transition-fast">
+          <div class="member-info smooth-transition-fast">
+           <div class="member-name-div">
+            <h5 class="member-name">Dr. Divya <br>Udayan J</h5>
+          </div>
+          <h5 class="member-position">Faculty Coordinator<br> ACM VIT Student Chapter</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <br>
+  <div class="row students-div">
+    <div class="center wow fadeInDown">
+     <h4 class="center white-text heading">Student Organisers</h4>
+   </div>
+   <br><br>
+   <div class="owl-carousel owl-theme wow fadeInUp" id="owlCarousel_members">
+    <div class="owl-element-wrap">
+     <div class="member-card">
+      <img src="images/people/abhitej.jpg" class="member-card-img smooth-transition-fast">
+      <div class="member-info smooth-transition-fast">
+       <div class="member-name-div">
+         <h5 class="member-name">Abhitej Singh</h5>
+       </div>
+       <h5 class="member-position">President</h5>
+
+       <div class="member-social-links text-center">
+        <a href="https://www.facebook.com/Ash.nda22?fref=pb&amp;hc_location=profile_browser" target="_blank" class="nodecoration" >
+          <i class="smooth-transition-fast fa fa-2x fa-facebook"
+          aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/singhabhitej" target="_blank" class="nodecoration">
+          <i class="smooth-transition-fast fa fa-2x fa-github"
+          aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/abhitejsingh23/" target="_blank" style="margin-left:11px;" class="nodecoration">
+          <i class="smooth-transition-fast fa fa-2x fa-linkedin"
+          aria-hidden="true"></i>
+        </a>
         
-    
+      </div>
+    </div>
+  </div>
+</div>
+<div class="owl-element-wrap">
+ <div class="member-card">
+  <img src="images/people/hardika.jpg" class="member-card-img smooth-transition-fast">
+  <div class="member-info smooth-transition-fast">
+   <div class="member-name-div">
+    <h5 class="member-name">Hardika Goyal</h5>
+  </div>
+  <h5 class="member-position">Managing Director</h5>
 
-    <div style="height: 500px;"></div>
-    
-    
-     <!-- Compiled and minified JavaScript -->
-     <script src="curves.js"></script>
-     <script
-			  src="https://code.jquery.com/jquery-3.3.1.min.js"
-			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			  crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <div class="member-social-links text-center">
+    <a href="https://www.facebook.com/hardika.goyal?fref=pb&amp;hc_location=profile_browser" target="_blank" class="nodecoration" >
+      <i class="smooth-transition-fast fa fa-2x fa-facebook"
+      aria-hidden="true"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/hardika-goyal-294471128/" target="_blank" style="margin-left:11px;" class="nodecoration">
+      <i class="smooth-transition-fast fa fa-2x fa-linkedin"
+      aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+<div class="owl-element-wrap">
+ <div class="member-card">
+  <img src="images/people/sourish.jpg" class="member-card-img smooth-transition-fast">
+  <div class="member-info smooth-transition-fast">
+   <div class="member-name-div">
+    <h5 class="member-name">Sourish Banerjee</h5>
+  </div>
+  <h5 class="member-position">Technical Director</h5>
 
-     <script>
-          $(document).ready(function(){
-             $('.sidenav').sidenav();
-        });
-     </script>
-  </body>
+  <div class="member-social-links text-center">
+    <a href="https://www.facebook.com/ban.sourishi" target="_blank" class="nodecoration" >
+      <i class="smooth-transition-fast fa fa-2x fa-facebook"
+      aria-hidden="true"></i>
+    </a>
+    <a href="https://github.com/sourish1997" target="_blank" class="nodecoration">
+      <i class="smooth-transition-fast fa fa-2x fa-github"
+      aria-hidden="true"></i>
+    </a>
+
+  </div>
+</div>
+</div>
+</div>
+<div class="owl-element-wrap">
+ <div class="member-card">
+  <img src="images/people/harshit.jpg" class="member-card-img smooth-transition-fast">
+  <div class="member-info smooth-transition-fast">
+   <div class="member-name-div">
+    <h5 class="member-name">Harshit Kedia</h5>
+  </div>
+  <h5 class="member-position">Associate Technical Head</h5>
+  <div class="member-social-links text-center">
+    <a href="https://www.facebook.com/hkedia32" target="_blank" class="nodecoration" >
+      <i class="smooth-transition-fast fa fa-2x fa-facebook"
+      aria-hidden="true"></i>
+    </a>
+    <a href="https://github.com/hkedia321" target="_blank" class="nodecoration">
+      <i class="smooth-transition-fast fa fa-2x fa-github"
+      aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+<div class="owl-element-wrap">
+ <div class="member-card">
+  <img src="images/people/yash.jpg" class="member-card-img smooth-transition-fast">
+  <div class="member-info smooth-transition-fast">
+   <div class="member-name-div">
+    <h5 class="member-name">Yash Shah</h5>
+  </div>
+  <h5 class="member-position">Research And ICPC Head</h5>
+  <div class="member-social-links text-center">
+    <a href="https://www.facebook.com/Yash.2h2o" target="_blank" class="nodecoration" >
+      <i class="smooth-transition-fast fa fa-2x fa-facebook"
+      aria-hidden="true"></i>
+    </a>
+
+  </div>
+</div>
+</div>
+</div>
+<div class="owl-element-wrap">
+ <div class="member-card">
+  <img src="images/people/vinit.jpg" class="member-card-img smooth-transition-fast">
+  <div class="member-info smooth-transition-fast">
+   <div class="member-name-div">
+    <h5 class="member-name">Vinit Bodhwani</h5>
+  </div>
+  <h5 class="member-position">Associate Research Lead</h5>
+  <div class="member-social-links text-center">
+    <a href="https://www.facebook.com/profile.php?id=100009652089796" target="_blank" class="nodecoration" >
+      <i class="smooth-transition-fast fa fa-2x fa-facebook"
+      aria-hidden="true"></i>
+    </a>
+    <a href="https://github.com/bodhwani" target="_blank" class="nodecoration">
+      <i class="smooth-transition-fast fa fa-2x fa-github"
+      aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+<div class="owl-element-wrap">
+ <div class="member-card">
+  <img src="images/people/shivam.jpg" class="member-card-img smooth-transition-fast">
+  <div class="member-info smooth-transition-fast">
+   <div class="member-name-div">
+    <h5 class="member-name">Shivam Chawla</h5>
+  </div>
+  <h5 class="member-position">Public Relations</h5>
+  <div class="member-social-links text-center">
+    <a href="https://www.facebook.com/shivamchawla60" target="_blank" class="nodecoration" >
+      <i class="smooth-transition-fast fa fa-2x fa-facebook"
+      aria-hidden="true"></i>
+    </a>
+    <a href="https://github.com/Shivam60" target="_blank" class="nodecoration">
+      <i class="smooth-transition-fast fa fa-2x fa-github"
+      aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+<div class="owl-element-wrap">
+ <div class="member-card">
+  <img src="images/people/ri.jpg" class="member-card-img smooth-transition-fast">
+  <div class="member-info smooth-transition-fast">
+   <div class="member-name-div">
+    <h5 class="member-name">Rishabh</h5>
+  </div>
+  <h5 class="member-position">Operations Head</h5>
+  <div class="member-social-links text-center">
+    <a href="https://www.facebook.com/rishabhjain22sep" target="_blank" class="nodecoration" >
+      <i class="smooth-transition-fast fa fa-2x fa-facebook"
+      aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+<div class="owl-element-wrap">
+ <div class="member-card">
+  <img src="images/people/anmol.png" class="member-card-img smooth-transition-fast">
+  <div class="member-info smooth-transition-fast">
+   <div class="member-name-div">
+    <h5 class="member-name">Anmol</h5>
+  </div>
+  <h5 class="member-position">Marketing Head</h5>
+  <div class="member-social-links text-center">
+    <a href="https://www.facebook.com/anmolsrivastava05" target="_blank" class="nodecoration" >
+      <i class="smooth-transition-fast fa fa-2x fa-facebook"
+      aria-hidden="true"></i>
+    </a>
+    
+    <a href="https://github.com/anmolsrivastava05" target="_blank" class="nodecoration">
+      <i class="smooth-transition-fast fa fa-2x fa-github"
+      aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+<div class="owl-element-wrap">
+ <div class="member-card">
+  <img src="images/people/vibhore.jpg" class="member-card-img smooth-transition-fast">
+  <div class="member-info smooth-transition-fast">
+   <div class="member-name-div">
+    <h5 class="member-name">Vibhore Gupta</h5>
+  </div>
+  <h5 class="member-position">Finance Head</h5>
+  <div class="member-social-links text-center">
+    <a href="https://www.facebook.com/vibhore.gupta.18" target="_blank" class="nodecoration" >
+      <i class="smooth-transition-fast fa fa-2x fa-facebook"
+      aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+</div>
+</div>
+<br><br>
+<div class="contactus-wrap" id="contactus">
+  <div class="container">
+    <div class="col s12 center wow fadeInUp">
+      <h4 class="heading white-text">Contact Us</h4>
+    </div>
+    <br><br>
+    <!-- <div class="row center contactus-info">
+      <div class="addressdiv col s12 m3 center"><i class="fa fa-map-marker smooth-transition" aria-hidden="true"></i>
+        &nbsp;VIT Vellore
+      </div>
+      <div class="emaildiv col s12 m5 center">
+        <i class="fa fa-envelope smooth-transition" aria-hidden="true"></i>&nbsp;<a
+        href="mailto:outreach.acmvit@gmail.com" class="" target="_blank">outreach.acmvit@gmail.com</a>
+      </div>
+      <div class="phndiv col s12 m4 center">
+        <i class="fa fa-phone-square smooth-transition" aria-hidden="true"></i>&nbsp;+91
+        8279887513
+      </div>
+    </div> -->
+    <div class="row wow fadeIn">
+      <form action="http://c2c.acmvit.in/contact/create" method="post">
+        <div class="col s12">
+          <div class="input-field col s12 m6">
+            <input id="name_contact" type="text" name="name" required>
+            <label for="name_contact">Name</label>
+          </div>
+          <div class="input-field col m6 s12">
+            <input id="email_contact" type="email" name="email" required data-success="seems good"
+            data-error="something is wrong">
+            <label for="email_contact">Email</label>
+          </div>
+          <div class="input-field col s12">
+            <input type="text" name="subject" required id="subject">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="input-field col s12">
+            <textarea id="message_contact" class="materialize-textarea" name="message" required></textarea>
+            <label for="message_contact">Message</label>
+          </div>
+          <input type="hidden" name="_csrf" value="null">
+          <div class="col s12 center-align">
+            <button class="btn waves-effect waves-light contact-sub-but" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+<!-- <div class="contactus-wrap" id="contactus">
+  <div class="container">
+    <div class="col s12 center wow fadeInUp">
+      <h4 class="heading white-text" style="margin-top: 80px;">SUBSCRIBE FOR UPDATES</h4>
+    </div>
+    <br><br>
+
+    <form action="http://c2c.acmvit.in/" style="margin-bottom: 50px;" method="post">
+      <div class="row">
+        <div class="input-field wow fadeInUp col s6">
+          <input id="mail" type="text" name="email" required>
+          <label for="mail">EMAIL</label>
+        </div>
+        <div class="col s6 wow fadeInUp center-align input-field">
+          <button class="btn waves-effect waves-light contact-sub-but" type="submit" name="action">SUBSCRIBE
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+  </div>
+</div> -->
+
+<!-- <div class="center-align">
+     <iframe
+        width="350"
+        height="430"
+        src="https://console.dialogflow.com/api-client/demo/embedded/94997368-d7cf-4391-8cee-15f4d196937f">
+    </iframe>
+    
+</div> -->
+<!-- <div class="gallery-wrapper center-align">
+     <div class="col s12 center wow fadeInUp">
+      <h4 class="heading white-text" style="margin-top: 80px;">INSIGHTS</h4>
+    </div>
+    
+     <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="/images/insights/1.jpg" ></a>
+        <a class="carousel-item" href="#two!"><img src="/images/insights/2.jpg" ></a>
+        <a class="carousel-item" href="#two!"><img src="/images/insights/3.jpg" ></a>
+        <a class="carousel-item" href="#two!"><img src="/images/insights/4.jpg" ></a>
+        <a class="carousel-item" href="#two!"><img src="/images/insights/5.jpg" ></a>
+        <a class="carousel-item" href="#two!"><img src="/images/insights/6.jpg" ></a>
+        <a class="carousel-item" href="#two!"><img src="/images/insights/7.jpg" ></a>
+        <a class="carousel-item" href="#two!"><img src="/images/insights/8.jpg" ></a>
+      </div>
+</div> -->
+
+ <br><br>
+   <div class="footer-divider">
+   </div>
+   <footer>
+    <div class="container-fluid">
+      <div class="row margin-bottom-0">
+        <div class="col s6 m3 l2 offset-m1 offset-l1 center footer-acm-div">
+          <a href="mait.acm.org" target="_blank">
+            <img src="images/acmlogo.png" class="responsive-img">
+          </a>
+        </div>
+        <div class="col s6 hide-on-med-and-up center">
+          <a href="mait.acm.org/appathon/" target="_blank">
+            <img src="images/sponsors/VIT.png" class="responsive-img">
+          </a>
+        </div>
+        <div class="col s12 m4 l6 center">
+          <a href="index.html"><img src="images/c_only.png" class="responsive-img footer-logo-c2c"></a>
+          <div class="social-div">
+            <a href="https://www.facebook.com/ACM.VITU" target="_blank" class="social-a social-facebook"><i class="smooth-transition fa fa-2x fa-facebook"
+             aria-hidden="true"></i>
+           </a>
+           <a href="https://twitter.com/ACM_VIT" target="_blank" class="social-a social-twitter"><i class="smooth-transition fa fa-2x fa-twitter"
+            aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com/c2c.acmvit/" target="_blank" class="social-a social-instagram"><i class="smooth-transition fa fa-2x fa-instagram"
+            aria-hidden="true"></i>
+          </a>
+          <!--  <a href="https://twitter.com/ACMVITU" target="_blank" class="social-a social-twitter"><i class="smooth-transition fa fa-2x fa-twitter"
+            aria-hidden="true"></i>
+          </a> -->
+          <a href="https://github.com/ACM-VIT" target="_blank" class="social-a social-github"><i class="smooth-transition fa fa-2x fa-github"
+           aria-hidden="true"></i>
+         </a>
+
+       </div>
+       <!-- <span class="footer-follow-text white-text">Follow us for latest updates</span> -->
+     </div>
+     <!-- <div class="col s6 m3 l2 hide-on-small-only center footer-vit-div">
+      <a href="http://www.vit.ac.in/" target="_blank">
+        <img src="images/vit.png" style="margin-top: -24px;" class="responsive-img">
+      </a>
+    </div> -->
+  </div>
+</div>
+</footer>
+ 
+<div id="back-to-top" style="display: block;">
+  <a onclick="$('html, body').animate({scrollTop: $('body').offset().top}, 1000);">Back to Top</a>
+</div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- <script src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+  
+  <script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('select').material_select();
+		});
+	</script>
+	<script type="text/javascript">
+//get the info of currently logged in user
+var cur_is_admin=false;
+
+</script>
+<script type="text/javascript" src="js/sweetalert.min.js"></script>
+
+
+<script src="js/curves.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/1.0.0/typewriter.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.6.0/typeit.min.js"></script>
+<script type="text/javascript" src="js/nav5f93.js?110"></script>
+<script type="text/javascript" src="js/faq5f93.js?110"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/owl.navigation.js"></script>
+<script type="text/javascript" src="js/sweetalert.min.js"></script>
+
+<script type="text/javascript">
+  function set_height() {
+    var hero_div_ht = $(".hero-div").height();
+    $(".cb-slideshow").css("min-height", hero_div_ht + 'px');
+  }
+  $(window).ready(function () {
+    set_height();
+
+    $(window).resize(function () {
+      set_height();
+    });
+  });
+</script>
+<script type="text/javascript">
+
+  $(document).ready(function(){
+   $('#owlCarousel_sponsors').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:3
+      },
+      1000:{
+        items:3
+      }
+    }
+  })
+ });
+  $(document).ready(function(){
+   $('#owlCarousel_members').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:3
+      },
+      1000:{
+        items:4
+      }
+    }
+  })
+ });
+</script>
+
+<script type="text/javascript">
+
+ var c2c_h= $("#about-box-c2c").height();
+ var acm_h= $("#about-box-acm").height();
+ set_height_box();
+ $(window).resize(function(){
+  set_height_box();
+});
+ function set_height_box(){
+  if(window.innerWidth>769){
+    if(c2c_h>acm_h){
+      $("#about-box-acm").height(c2c_h);
+    }
+    else{
+      $("#about-box-c2c").height(acm_h);
+    }
+  }
+}
+
+</script>
+<script type="text/javascript">
+     $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+</script>
+<script type="text/javascript">
+ 
+  
+  </script>
+
+
+
+    <script type="text/javascript">
+  // $(window).on('load', function() { // makes sure the whole site is loaded
+  //   $('#status').fadeOut(); // will first fade out the loading animation
+  //   $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+  //   $('body').delay(30050).css({'overflow':'visible'});
+  // });
+  // $(document).ready(function() {
+
+  //   setTimeout(function(){
+  //     $('body').addClass('loaded');
+  //   }, 100);
+
+  // });
+  $(document).ready(function() {
+    setTimeout(function(){
+      $("body").addClass('loaded');
+      $('.css-preloader-wrapper').hide();
+    }, 100);
+  });
+
+</script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript">
+ $(".button-collapse").sideNav();
+ $(document).ready(function() {
+  Materialize.updateTextFields();
+}); 
+ check_scroll_top();
+ $(window).scroll(function () {
+  check_scroll_top();
+});
+ function check_scroll_top(){
+  if ($(window).scrollTop() > 1400) {
+    $("#back-to-top").fadeIn(400);
+  } else {
+    $("#back-to-top").fadeOut(500);
+  }
+}
+</script>
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-93972974-1', 'auto');
+  ga('send', 'pageview');
+</script> -->
+</body>
+
+<!-- Mirrored from c2c.acmvit.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Mar 2018 15:35:03 GMT -->
 </html>
-      
